@@ -2,9 +2,10 @@
 $servername = "localhost";
 $username = "root";
 $password = "qwerty";
+$database = "hackathon";
 
 // Create connection
-$conn = mysqli_connect($servername, $username, $password);
+$conn = mysqli_connect($servername, $username, $password, $database);
 
 // Check connection
 if (!$conn) {
@@ -13,6 +14,6 @@ if (!$conn) {
 echo "Connected successfully";
 
 //Select a database to work with
-$selected = mysqli_select_db("hackathon",$conn)
-  or die("Could not select database");
+//$selected = mysql_select_db("hackathon",$conn)
+ // or die("Could not select database");
 ?> 
