@@ -17,13 +17,9 @@ if (!$conn) {
 }
 echo "Connected successfully";
 
-$result = mysqli_query($conn, "SELECT * FROM test");
+/*$result = mysqli_query($conn, "SELECT * FROM test");
 while($row = mysqli_fetch_array($result)) {
     print_r ($row);
-}
-
-//Select a database to work with
-//$selected = mysql_select_db("hackathon",$conn)
- // or die("Could not select database");
+}*/
  
 ?> 
