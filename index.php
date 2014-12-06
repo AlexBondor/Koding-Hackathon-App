@@ -50,14 +50,14 @@
 
         <section id="carousel-1" class="carousel slide section-slide" data-ride="carousel">
           <div class="carousel-inner">
-            <div class="item active" style="background: url(images/bg-1.jpg) no-repeat center;">
+            <div class="item active" style="background: url(images/CLUJ/poza1.png) no-repeat center;">
               <div class="container"><img src="images/typo-1.png" alt="First slide"></div>
             </div>
-            <div class="item" style="background: url(images/bg-2.jpg) no-repeat center;">
+            <div class="item" style="background: url(images/CLUJ/poza2.png) no-repeat center;">
               <div class="container"><img src="images/typo-2.png" alt="First slide"></div>
             </div>
-            <div class="item" style="background: url(images/bg-3.jpg) no-repeat center;">
-              <div class="container"><img src="images/typo-3.png" alt="First slide"></div>
+            <div class="item" style="background: url(images/CLUJ/poza4.png) no-repeat center;">
+             <div class="container"><img src="images/typo-3.png" alt="First slide"></div> 
             </div>
           </div>
           <a class="left carousel-control" href="#carousel-1" data-slide="prev"><span class="fa fa-chevron-left"></span></a>
