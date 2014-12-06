@@ -19,7 +19,7 @@ echo "Connected successfully";
 
 $result = mysqli_query($conn, "SELECT * FROM test");
 while($row = mysqli_fetch_array($result)) {
-    echo $row;
+    print_r ($row);
 }
 
 //Select a database to work with
