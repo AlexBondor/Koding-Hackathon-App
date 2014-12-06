@@ -13,7 +13,10 @@ if (!$conn) {
 }
 echo "Connected successfully";
 
-@mysql_result(mysql_query("SELECT DATABASE();"),0);
+$result = mysql_query("SELECT DATABASE();");
+while($row = mysql_fetch_array($result)) {
+    echo $row;
+}
 
 //Select a database to work with
 //$selected = mysql_select_db("hackathon",$conn)
