@@ -18,7 +18,7 @@
                         <div class="navbar-header pull-right">
                             <h1 class="navbar-brand">
                                 <i class="fa fa-power-off"></i> 
-                                <a href="index.html">Team 3</a>
+                                <a href="index.php">Team 3</a>
                             </h1>
                         </div>
                         <div class = "pull-left">

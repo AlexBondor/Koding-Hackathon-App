@@ -17,6 +17,8 @@ $(document).ready(function(){
          smallMenu();
          largeMenu();
     });
+    smallMenu();
+         largeMenu();
   
   function smallMenu(){
  $('#navigation-small').singlePageNav( {
