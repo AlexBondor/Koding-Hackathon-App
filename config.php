@@ -1,4 +1,8 @@
 <?php
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 $servername = "localhost";
 $username = "root";
 $password = "qwerty";
@@ -21,4 +25,5 @@ while($row = mysql_fetch_array($result)) {
 //Select a database to work with
 //$selected = mysql_select_db("hackathon",$conn)
  // or die("Could not select database");
+ 
 ?> 
