@@ -13,7 +13,7 @@ if (!$conn) {
 }
 echo "Connected successfully";
 
-$result = mysql_query("SELECT DATABASE();");
+$result = mysql_query("SELECT * FROM test");
 while($row = mysql_fetch_array($result)) {
     echo $row;
 }
