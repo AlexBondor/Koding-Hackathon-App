@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>We hack EULA!</title>
     
     <?php include 'assets.html'; ?>
-    
-  </head>
+
+</head>
 <body>
     <div id="page">
-      <header id="header" class="site-header">
-
-        <nav id="navbar" class="site-navbar navbar navbar-static-top navbar-fixed-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <i class="fa fa-bars"></i>
-              </button>
-              <h1 class="navbar-brand"><i class="fa fa-power-off"></i> <a href="index.html">Team 3</a></h1>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar-collapse-1">
-              <ul id="navigation" class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#header" class="current">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#footer">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
+        <header id="header" class="site-header">
+            <nav id="navbar" class="site-navbar navbar navbar-static-top navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="row">
+                        <div class="navbar-header pull-right">
+                            <h1 class="navbar-brand">
+                                <i class="fa fa-power-off"></i> 
+                                <a href="index.html">Team 3</a>
+                            </h1>
+                        </div>
+                        <div class = "pull-left">
+                            <button id = "menu-button" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <i class="fa fa-bars"></i>
+                            </button>
+                        </div>
+                        <div class = "large-menu">
+                            <ul id="navigation-large" class="nav navbar-nav navbar-left">
+                                <li class="active"><a href="#header" class="current">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#footer">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="navbar-collapse-1" class="collapse navbar-collapse small-menu">
+                        <ul id="navigation-small" class="nav navbar-nav navbar-left">
+                            <li class="active"><a href="#header" class="current">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#footer">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
       <main id="main" class="site-main">
 
@@ -62,52 +75,6 @@
             </div>
           </div>
         </section>
-
-        <!-- Project Modal -->
-        <div class="modal fade" id="project-modal" tabindex="-1" role="dialog" aria-labelledby="project-modal-label" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="project-modal-label">Project title</h4>
-              </div>
-              <div class="modal-body">
-                <article class="single-project">
-                  <div class="project-thumbnail">
-                    <div id="project-thumbnail-carousel-1" class="carousel slide" data-ride="carousel">
-                      <div class="carousel-inner">
-                        <div class="item active"><img src="images/single-project-1.jpg" /></div>
-                        <div class="item"><img src="images/single-project-2.png" /></div>
-                        <div class="item"><img src="images/single-project-3.jpg" /></div>
-                      </div>
-                      <ol class="carousel-indicators">
-                        <li data-target="#project-thumbnail-carousel-1" data-slide-to="0" class="active"></li>
-                        <li data-target="#project-thumbnail-carousel-1" data-slide-to="1"></li>
-                        <li data-target="#project-thumbnail-carousel-1" data-slide-to="2"></li>
-                      </ol>
-                      <a class="left carousel-control" href="#project-thumbnail-carousel-1" data-slide="prev"><span class="fa fa-chevron-left"></span></a>
-                      <a class="right carousel-control" href="#project-thumbnail-carousel-1" data-slide="next"><span class="fa fa-chevron-right"></span></a>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-4">
-                      <button type="button" class="btn btn-block btn-primary">Launch Project</button>
-                      <ul class="list-unstyled project-info">
-                        <li><strong>Type</strong> <span class="pull-right">Web Design</span></li>
-                        <li><strong>Client</strong> <span class="pull-right">Google</span></li>
-                        <li><strong>Year</strong> <span class="pull-right">2014</span></li>
-                      </ul>
-                      
-                    </div>
-                    <div class="col-md-8">
-                      <p>Suspendisse varius nisl nunc. Aenean in dictum nibh. Nullam congue facilisis purus porta ullamcorper. Aenean in consequat sapien. Cras orci augue, ultricies at luctus congue, dapibus sed magna. Vivamus consequat commodo pharetra. Maecenas sed tincidunt mi, quis accumsan nisi. Praesent ac porttitor massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur in bibendum tellus, vitae imperdiet mauris.</p>
-                    </div>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div>
 
         <section id="about" class="section section-center section-hilite section-testimonial">
           <div class="container">
@@ -148,16 +115,16 @@
             <div class="container">
                 <h2 class="section-title"><span>Our Team</span></h2>
                 <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-6">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
                         <img src="images/mihai.jpg">
                         <h5>Mihai Hanga</h5>
                     </div>
                     
-                    <div class="col-md-4 col-sm-4 col-xs-6">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
                         <img src="https://camo.githubusercontent.com/17a8aa65e19d57a8fe22bba37439d9f33d8ec2ca/687474703a2f2f676f6f2e676c2f374b446d5237">
                         <h5>Alexandru Bondor</h5>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-6">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
                         <img src="images/adi.jpg">
                         <h5>Adrian Rus</h5>
                     </div>

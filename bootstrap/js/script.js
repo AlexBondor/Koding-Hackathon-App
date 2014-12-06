@@ -10,9 +10,30 @@ $(document).ready(function(){
       }
     });
   });
+  
+    $(window).resize(function() {
+        $('#navbar-collapse-1').removeClass('collapse in');
+        $('#navbar-collapse-1').addClass('collapse');
+         smallMenu();
+         largeMenu();
+    });
+  
+  function smallMenu(){
+ $('#navigation-small').singlePageNav( {
+    offset: $('#navbar').outerHeight(),
+    filter: ':not(.external)',
+    speed: 750,
+    currentClass: 'active',
+
+    beforeStart: function() {
+    },
+    onComplete: function() {
+    }
+  });}
 
   // One Page Navigation Setup
-  $('#navigation').singlePageNav({
+  function largeMenu(){
+  $('#navigation-large').singlePageNav({
     offset: $('#navbar').outerHeight(),
     filter: ':not(.external)',
     speed: 750,
@@ -23,6 +44,7 @@ $(document).ready(function(){
     onComplete: function() {
     }
   });
+  }
 
   // Sticky Navbar Affix
   $('#navbar').affix({
