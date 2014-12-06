@@ -17,8 +17,8 @@ if (!$conn) {
 }
 echo "Connected successfully";
 
-$result = mysql_query("SELECT * FROM test");
-while($row = mysql_fetch_array($result)) {
+$result = mysqli_query("SELECT * FROM test");
+while($row = mysqli_fetch_array($result)) {
     echo $row;
 }
 
