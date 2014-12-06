@@ -13,6 +13,8 @@ if (!$conn) {
 }
 echo "Connected successfully";
 
+@mysql_result(mysql_query("SELECT DATABASE();"),0);
+
 //Select a database to work with
 //$selected = mysql_select_db("hackathon",$conn)
  // or die("Could not select database");
