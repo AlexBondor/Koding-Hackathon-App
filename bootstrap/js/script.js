@@ -1,4 +1,26 @@
 $(document).ready(function(){
+//arrange blocks in a circle
+var block = $("#rotator div").get(),
+increase = Math.PI * 2 / block.length,
+x = 0, y = 0, angle = 0;
+
+for (var i = 0; i < block.length; i++) {
+    var elem = block[i];
+    x = 150 * Math.cos(angle) + 130;
+    y = 150 * Math.sin(angle) + 130;
+    elem.style.position = 'absolute';
+    elem.style.left = x + 'px';
+    elem.style.top = y + 'px';
+    var rot = 90 + (i * (360 / block.length));        
+    angle += increase;
+}
+     
+    //Setup the grid to change the highlighted bubble on mouseover
+    $("#rotator div").mouseover(function(){
+        //set the content of the center bubble
+        $("#middleBubble").html("<p><b>" + $(this).data("bubble1") + "</b><br />" + $(this).data("bubble2") + "</p>");
+        currentGridSelector = $(this).attr("id");
+    });
 
   // Add "loaded" class when a section has been loaded
   $(window).scroll(function() { 
@@ -68,3 +90,15 @@ $(document).ready(function(){
     return false;
   });
 }); 
+
+//activate
+function hovera(){
+   //alert("in");
+  $("#rotator").removeClass('rotatora').addClass('rotators');
+}
+
+//stop
+function hovers(){
+   //alert("out");
+  $("#rotator").removeClass('rotators').addClass('rotatora');
+}
