@@ -626,3 +626,19 @@ table {
     height: 600px;
     }  
 }
+
+/*
+* GLOWING EFFECT ON POWER BUTTON
+*/
+
+#power-button {
+    -webkit-transition: color 1s linear;
+    -moz-transition: color 1s linear;
+    -ms-transition: color 1s linear;
+    -o-transition: color 1s linear;
+    transition: color 1s linear;
+}
+
+#power-button.glow {
+    color: #fff;
+}

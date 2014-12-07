@@ -1,4 +1,10 @@
 $(document).ready(function(){
+    // Make power button glow
+    var glow = $('#power-button');
+    setInterval(function(){
+        glow.hasClass('glow') ? glow.removeClass('glow') : glow.addClass('glow');
+    }, 1000);
+
  //arrange blocks in a circle
     var block = $("#rotator div").get(),
     increase = Math.PI * 2 / block.length,
@@ -126,3 +132,4 @@ function hovers(){
    //alert("out");
   $("#rotator").removeClass('rotators').addClass('rotatora');
 }
+

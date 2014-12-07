@@ -18,7 +18,7 @@
 							<div class="navbar-header pull-right">
 								<h1 class="navbar-brand">
 									<a href="menuAlt.php">
-									    <i class="fa fa-power-off"></i> 
+									    <i id = "power-button" class="fa fa-power-off" style = "font-size: 2.5em"></i> 
 									</a>
 								</h1>
 							</div>
