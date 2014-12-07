@@ -67,7 +67,7 @@
                                                     '</p>' . 
                                                 '</div>'.
                                                 '<p>' .
-                                                    '<a href="menu/base.php?id=' . $i . '">Pick me</a>' .
+                                                    '<a href="base.php?id=' . $i . '">Pick me</a>' .
                                                 '</p>' . 
                                             '</div>'.
                                        '</div>' .
