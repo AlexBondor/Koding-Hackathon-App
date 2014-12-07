@@ -5,9 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>We hack EULA!</title>
-		<link href="bootstrap/css/style.css" rel="stylesheet">
-        <script src="https://maps.googleapis.com/maps/api/js"></script>
-        <script src = "bootstrap/js/map-index.js"> </script>
         
 		<?php include 'assets.php'; ?>
 		
@@ -108,7 +105,7 @@
 								</div>
 							</div>
 							<ol class="carousel-indicators">
-								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"><img src="images/final/avatar-1.png" width="64" height="64" alt="" class="img-circle"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="0"><img src="images/final/avatar-1.png" width="64" height="64" alt="" class="img-circle"></li>
 								<li data-target="#carousel-example-generic" data-slide-to="1"><img src="images/final/avatar-2.png" width="64" height="64" alt="" class="img-circle"></li>
 								<li data-target="#carousel-example-generic" data-slide-to="2"><img src="images/final/avatar-3.png" width="64" height="64" alt="" class="img-circle"></li>
 							</ol>

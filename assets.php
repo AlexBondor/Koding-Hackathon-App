@@ -14,6 +14,9 @@
     <script src="bootstrap/js/isotope.pkgd.min.js"></script>
     <script src="bootstrap/js/pagenav.js"></script>
     <script src="bootstrap/js/codrops-min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src = "bootstrap/js/map-index.js"> </script>
+    <script src = "bootstrap/js/map.js"> </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

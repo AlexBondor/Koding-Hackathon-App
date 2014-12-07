@@ -15,9 +15,6 @@
             .subtitle-middle {
                 text-align: center;
             }
-            .body-middle {
-               margin-top: 10%;
-            }
         </style>
     </head>
     <body class = "body-middle">
@@ -26,71 +23,62 @@
         </h1>
         <div class = "row">
             <ul class = "ch-grid">
-                <li>
-                    <div class="ch-item ch-img-1">                
-                        <div class="ch-info-wrap">
-                            <div class="ch-info">
-                                <div class="ch-info-front ch-img-1"></div>
-                                <div class="ch-info-back">
-                                    <h3>Bears Type</h3>
-                                    <p>by Josh Schott <a href="http://drbl.in/ewUW">View on Dribbble</a></p>
-                                </div>    
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="ch-item ch-img-2">                
-                        <div class="ch-info-wrap">
-                            <div class="ch-info">
-                                <div class="ch-info-front ch-img-2"></div>
-                                <div class="ch-info-back">
-                                    <h3>Bears Type</h3>
-                                    <p>by Josh Schott <a href="http://drbl.in/ewUW">View on Dribbble</a></p>
-                                </div>    
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="ch-item ch-img-3">                
-                        <div class="ch-info-wrap">
-                            <div class="ch-info">
-                                <div class="ch-info-front ch-img-3"></div>
-                                <div class="ch-info-back">
-                                    <h3>Bears Type</h3>
-                                    <p>by Josh Schott <a href="http://drbl.in/ewUW">View on Dribbble</a></p>
-                                </div>    
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="ch-item ch-img-4">                
-                        <div class="ch-info-wrap">
-                            <div class="ch-info">
-                                <div class="ch-info-front ch-img-4"></div>
-                                <div class="ch-info-back">
-                                    <h3>Bears Type</h3>
-                                    <p>by Josh Schott <a href="http://drbl.in/ewUW">View on Dribbble</a></p>
-                                </div>    
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="ch-item ch-img-5">                
-                        <div class="ch-info-wrap">
-                            <div class="ch-info">
-                                <div class="ch-info-front ch-img-5"></div>
-                                <div class="ch-info-back">
-                                    <h3>Bears Type</h3>
-                                    <p>by Josh Schott <a href="http://drbl.in/ewUW">View on Dribbble</a></p>
-                                </div>    
-                            </div>
-                        </div>
-                    </div>
-                </li>
+                <?php 
+                    $games      = array('story', 'news', 'comics', 'game', 'classic', 'song');
+                    $time       = array(4, 3, 2, 2, 5, 1);
+                    $difficulty = array(3, 2, 2, 2, 5, 2);
+                    //path to directory to scan
+                    $directory = "images/menu/";
+                    //get all image files with a .jpg extension.
+                    $images = glob($directory . "*.jpg");
+                    
+                    $i = 1;
+                    foreach($images as $image)
+                    {
+                        if ($i == 1)
+                        {
+                            echo '<div class = "row">';
+                        }
+                        if ($i == 4)
+                        {
+                            echo '</div><div class = "row">';
+                        }
+                        echo 
+                         '<li>' .
+                            '<div class="ch-item ch-img-' . $i . '">' .          
+                                '<div class="ch-info-wrap">' .
+                                    '<div class="ch-info">' .
+                                        '<div class="ch-info-front ch-img-' . $i . '"></div>' .
+                                        '<div class="ch-info-back">' .
+                                            '<h3>' . $games[$i - 1] . '</h3>' .
+                                            '<div class = "row">' .
+                                                '<div class = "col-xs-6" style = "padding-right: 0px">' .
+                                                    '<p align = "right">' .
+                                                        'Time: ' .
+                                                        '</br>' .
+                                                        'Difficulty: ' . 
+                                                    '</p>' .
+                                                '</div>'.
+                                                '<div class = "col-xs-6">' .
+                                                    '<p align = "left">' .
+                                                        displayTime($time[$i - 1]) . 
+                                                        '</br>' .
+                                                        displayDifficulty($difficulty[$i - 1]) .
+                                                    '</p>' . 
+                                                '</div>'.
+                                                '<p>' .
+                                                    '<a href="base.php?id=' . $i . '">Pick me</a>' .
+                                                '</p>' . 
+                                            '</div>'.
+                                       '</div>' .
+                                    '</div>' .
+                                '</div>' .
+                            '</div>' .
+                        '</li>';
+                        $i++;    
+                    }
+                    echo '</div>';
+                ?>
             </ul>
         </div>
         <h3 class = "subtitle-middle">
