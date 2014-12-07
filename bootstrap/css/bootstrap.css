@@ -16,7 +16,7 @@ body {
 article,
 aside,
 details,
-figcaption,
+figcaptio,
 figure,
 footer,
 header,
@@ -3867,7 +3867,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
             box-shadow: none;
   }
   .navbar-collapse.collapse {
-    display: block !important;
     height: auto !important;
     padding-bottom: 0;
     overflow: visible !important;
@@ -3907,6 +3906,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .container-fluid > .navbar-collapse {
     margin-right: 0;
     margin-left: 0;
+  }
+  .large-menu {
+      display: block;
+  }
+  .small-menu {
+      display: none;
   }
 }
 .navbar-static-top {
@@ -4018,6 +4023,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
+  }
+  .large-menu {
+      display: none;
+  }
+  .small-menu {
+      display: block;
   }
 }
 @media (min-width: 768px) {
