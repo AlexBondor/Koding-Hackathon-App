@@ -32,11 +32,11 @@ function setGame($i) {
         $link = "news";
         break;
     case 3:
-        $title = "Spoderman: Hacking episode";
+        $title = "Spoderman: Koding Hackathon episode";
         $link = "comics";
         break;
     case 4:
-        $title = "EULA Revenge: Sponsors";
+        $title = "<a style=\"color: #fff; text-decoration: underline;\"  href=\"final.php\">E</a>ULA Revenge: Sponsors";
         $link = "game";
         break;
     case 5:

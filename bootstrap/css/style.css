@@ -596,7 +596,7 @@ table {
     border: 10px solid #131313;
     border-radius: 0 10px 0 10px;
     height: 600px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .oversf {
