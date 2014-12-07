@@ -5,9 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>We hack EULA!</title>
-		<link href="bootstrap/css/style.css" rel="stylesheet">
-        <script src="https://maps.googleapis.com/maps/api/js"></script>
-        <script src = "bootstrap/js/map-index.js"> </script>
         
 		<?php include 'assets.php'; ?>
 		

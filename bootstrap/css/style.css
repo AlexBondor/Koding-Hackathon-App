@@ -805,3 +805,37 @@ table {
   top: 33%;
   left: 45%;
 }
+
+.circle {
+    background-color: #24b463;
+    width:100px;
+    height:100px;
+    color: #fff;
+    position: relative;
+}
+
+.circle i {
+    left: 24%;
+    position: absolute;
+    top: 20%;
+}
+
+.circle:hover {
+    background-color: #126034;
+}
+
+.frame {
+    border: 10px solid #131313;
+    border-radius: 0 50px 0 50px;
+    height: 600px;
+}
+
+.oversf {
+    padding: 0 !important;
+    border-radius: 0 0 50px 50px;
+}
+
+.topart {
+    border-radius:50px 50px 0 0;
+    padding: 15px 0 5px 0;
+}
