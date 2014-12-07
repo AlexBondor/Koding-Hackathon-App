@@ -28,7 +28,6 @@
     margin-right:auto;
 }
 
-<<<<<<< HEAD
 /*
 * CODROPS kicking bubbles
 * http://tympanus.net/codrops/2012/08/08/circle-hover-effects-with-css-transitions/
@@ -145,23 +144,23 @@
 }
 
 .ch-img-1 { 
-	background-image: url(../../images/story.jpg);
+	background-image: url(../../images/menu/story.jpg);
 }
 
 .ch-img-2 { 
-	background-image: url(../../images/newspaper.jpg);
+	background-image: url(../../images/menu/newspaper.jpg);
 }
 
 .ch-img-3 { 
-	background-image: url(../../images/comics.jpg);
+	background-image: url(../../images/menu/comics.jpg);
 }
 
 .ch-img-4 { 
-	background-image: url(../../images/game.jpg);
+	background-image: url(../../images/menu/game.jpg);
 }
 
 .ch-img-5 { 
-	background-image: url(../../images/classic.jpg);
+	background-image: url(../../images/menu/classic.jpg);
 }
 
 .ch-info h3 {
@@ -732,7 +731,8 @@ table {
 /* Apply a natural box layout model to all elements */
 /* Read this post by Paul Irish: http://paulirish.com/2012/box-sizing-border-box-ftw/ */
  * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-=======
+ 
+ 
 #map-canvas-index {
     width: 100%;
     height: 300px;
@@ -742,4 +742,3 @@ table {
 .cursorrr{
     cursor:none;
 }
->>>>>>> a196cd6085b8b0966ee26f08e2a7a2920fc916d6

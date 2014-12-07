@@ -120,15 +120,15 @@
 						<h2 class="section-title"><span>Bhe Grnz</span></h2>
 						<div class="row">
 							<div class="col-md-4 col-sm-4 col-xs-12">
-								<img src="images/broken/imageNotFound.jpg">
+								<img src="images/broken/imageNotFound.png">
 								<h5>Zvunv Unatn</h5>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-12">
-								<img src="images/broken/imageNotFound.jpg">
+								<img src="images/broken/imageNotFound.png">
 								<h5>Ayrknaqeh Obaqbe</h5>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-12">
-								<img src="images/broken/imageNotFound.jpg">
+								<img src="images/broken/imageNotFound.png">
 								<h5>Nqevna Ehf</h5>
 							</div>
 						</div>

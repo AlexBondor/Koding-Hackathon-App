@@ -49,17 +49,17 @@
 			<main id="main" class="site-main">
 				<section id="carousel-1" class="carousel slide section-slide" data-ride="carousel">
 					<div class="carousel-inner">
-						<div class="item active" style="background: url(images/CLUJ/poza1.png) no-repeat center;">
-                          <div class="container"><img src="images/typo-1.png" alt="First slide"></div>
+						<div class="item active" style="background: url(images/cluj/poza1.png) no-repeat center;">
+                          <div class="container"><img src="images/typo-none.png" alt="First slide"></div>
                         </div>
-                        <div class="item" style="background: url(images/CLUJ/poza2.png) no-repeat center;">
-                          <div class="container"><img src="images/typo-2.png" alt="First slide"></div>
+                        <div class="item" style="background: url(images/cluj/poza2.png) no-repeat center;">
+                          <div class="container"><img src="images/typo-none.png" alt="First slide"></div>
                         </div>
-                        <div class="item" style="background: url(images/CLUJ/poza3.png) no-repeat center;">
-                         <div class="container"><img src="images/typo-3.png" alt="First slide"></div> 
+                        <div class="item" style="background: url(images/cluj/poza3.png) no-repeat center;">
+                         <div class="container"><img src="images/typo-none.png" alt="First slide"></div> 
                         </div>
-                         <div class="item" style="background: url(images/CLUJ/poza.png) no-repeat center;">
-                         <div class="container"><img src="images/typo-1.png" alt="First slide"></div> 
+                         <div class="item" style="background: url(images/cluj/poza.png) no-repeat center;">
+                         <div class="container"><img src="images/typo-none.png" alt="First slide"></div> 
                         </div>
 					</div>
 					<a class="left carousel-control" href="#carousel-1" data-slide="prev"><span class="fa fa-chevron-left"></span></a>
@@ -84,7 +84,7 @@
 				</section>
 				<section id="about" class="section section-center section-hilite section-testimonial">
 					<div class="container">
-						<h2 class="section-title"><span>What tourists think?</span></h2>
+						<h2 class="section-title"><span>What do creators think?</span></h2>
 						<i class="fa fa-quote-left fa-3x"></i>
 						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
@@ -108,9 +108,9 @@
 								</div>
 							</div>
 							<ol class="carousel-indicators">
-								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"><img src="images/avatar-1.png" width="64" height="64" alt="" class="img-circle"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="1"><img src="images/avatar-2.png" width="64" height="64" alt="" class="img-circle"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="2"><img src="images/avatar-3.png" width="64" height="64" alt="" class="img-circle"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"><img src="images/final/avatar-1.png" width="64" height="64" alt="" class="img-circle"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="1"><img src="images/final/avatar-2.png" width="64" height="64" alt="" class="img-circle"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="2"><img src="images/final/avatar-3.png" width="64" height="64" alt="" class="img-circle"></li>
 							</ol>
 						</div>
 					</div>
@@ -120,7 +120,7 @@
 						<h2 class="section-title"><span>Our Team</span></h2>
 						<div class="row">
 							<div class="col-md-4 col-sm-4 col-xs-12">
-								<img src="images/mihai.jpg">
+								<img src="images/final/mihai.jpg">
 								<h5>Mihai Hanga</h5>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-12">
@@ -128,7 +128,7 @@
 								<h5>Alexandru Bondor</h5>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-12">
-								<img src="images/adi.jpg">
+								<img src="images/final/adi.jpg">
 								<h5>Adrian Rus</h5>
 							</div>
 						</div>
@@ -141,7 +141,7 @@
 						<div class="row">
 							<aside class="widget col-md-3 col-sm-6">
 								<h5 class="widget-title">About Us</h5>
-								    <p>We are a 3 students team that is guided by motto:‘We are a team, we win as a team, we lose as a team" (Mourinho)</p>
+								    <p>We are a 3 students team that is guided by motto: ‘We are a team, we win as a team, we lose as a team" (Mourinho)</p>
 							</aside>
 							<aside class="widget col-md-3 col-sm-6">
 								<h5 class="widget-title">Contact</h5>
