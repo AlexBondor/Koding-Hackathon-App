@@ -642,3 +642,72 @@ table {
 #power-button.glow {
     color: #fff;
 }
+
+
+
+/*
+* CLASSIC WINDOWS 95
+*/
+
+.window-top {
+    margin-top: 20px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../images/classic/window-top.png');
+}
+
+.window-bottom {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../images/classic/window-bottom.png');
+}
+
+.window-repeat {
+    text-align: justify;
+    background-repeat: repeat-y;
+    background-image: url('../../images/classic/window-repeat.png');
+}
+
+.eula-text {
+    height: 20em;
+    width: 377px;
+    overflow-y: scroll;
+    margin-left: 19px;
+}
+@media (min-width: 768px) {
+    .win95 {
+        left: 32%;
+        position: absolute;
+    }
+}
+
+@media (max-width: 767px) {
+    .win95 {
+        left: 0%;
+        position: absolute;
+    }
+}
+
+.btn-win95-yes {
+    height: 25px;
+    width: 81px;
+    left: 226px;
+    bottom: 10px;
+    border-radius: none;
+}
+
+.btn-win95-no {
+    height: 25px;
+    width: 81px;
+    left: 320px;
+    bottom: 10px;
+    border-radius: none;
+}
+
