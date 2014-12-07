@@ -25,6 +25,7 @@
           </div>
           <div class="row">
             <div class="col-md-12 frame">
+                <?php include 'menu/comics.php'; ?>
             </div>
           </div>
           <div class="row">
