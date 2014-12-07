@@ -594,8 +594,9 @@ table {
 
 .frame {
     border: 10px solid #131313;
-    border-radius: 0 50px 0 50px;
+    border-radius: 0 10px 0 10px;
     height: 600px;
+    overflow-y: scroll;
 }
 
 .oversf {
@@ -606,4 +607,22 @@ table {
 .topart {
     border-radius:50px 50px 0 0;
     padding: 15px 0 5px 0;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+    .frame {
+    border: 0 !important;
+    border-radius: 0 50px 0 50px;
+    height: 600px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 991px) {
+    .frame {
+    border: 0 !important;
+    border-radius: 0 50px 0 50px;
+    height: 600px;
+    }  
 }
