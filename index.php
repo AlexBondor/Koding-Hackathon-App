@@ -5,6 +5,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>We hack EULA!</title>
+		<link href="bootstrap/css/style.css" rel="stylesheet">
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script src = "bootstrap/js/map.js"> </script>
 		<?php include 'assets.html'; ?>
 	</head>
 	<body>
@@ -52,12 +55,16 @@
                         <div class="item" style="background: url(images/CLUJ/poza2.png) no-repeat center;">
                           <div class="container"><img src="images/typo-2.png" alt="First slide"></div>
                         </div>
-                        <div class="item" style="background: url(images/CLUJ/poza4.png) no-repeat center;">
+                        <div class="item" style="background: url(images/CLUJ/poza3.png) no-repeat center;">
                          <div class="container"><img src="images/typo-3.png" alt="First slide"></div> 
+                        </div>
+                         <div class="item" style="background: url(images/CLUJ/poza.png) no-repeat center;">
+                         <div class="container"><img src="images/typo-1.png" alt="First slide"></div> 
                         </div>
 					</div>
 					<a class="left carousel-control" href="#carousel-1" data-slide="prev"><span class="fa fa-chevron-left"></span></a>
 					<a class="right carousel-control" href="#carousel-1" data-slide="next"><span class="fa fa-chevron-right"></span></a>
+			    	</section>
 				</section>
 				<section class="section section-center section-cta">
 					<div class="container">
@@ -66,9 +73,13 @@
 							Located in the Someșul Mic River valley, the city is considered the unofficial capital to the historical province of Transylvania.
 						</p>
 						<div class="main-action row">
-							<div class="col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-2"><a href="#" class="smooth-scroll btn btn-lg btn-block btn-danger">View Map</a></div>
-							<div class="col-md-3 col-sm-4"><a href="#" class="smooth-scroll btn btn-lg btn-block btn-default">Youth @ Cluj - Napoca</a></div>
+							<div class="col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-2"><a href="" class="smooth-scroll btn btn-lg btn-block btn-danger">View Map</a></div>
+							<div class="col-md-3 col-sm-4"><a href="http://www.europeanyouthcapital.org/?s=cluj" class="smooth-scroll btn btn-lg btn-block btn-default" target="_blank">Youth @ Cluj - Napoca</a></div>
 						</div>
+					</div>
+				</section>
+				<section class="map-canvas-section">
+					<div id="map-canvas">
 					</div>
 				</section>
 				<section id="about" class="section section-center section-hilite section-testimonial">

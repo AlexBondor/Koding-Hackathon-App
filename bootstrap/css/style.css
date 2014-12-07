@@ -17,3 +17,10 @@
     opacity: 0.3; 
     filter: alpha(opacity = 50);
 }
+
+#map-canvas {
+    width: 100%;
+    height: 300px;
+    margin-left:auto;
+    margin-right:auto;
+}

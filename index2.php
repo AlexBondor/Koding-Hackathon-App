@@ -9,9 +9,19 @@
     <?php include 'assets.html'; ?>
     
     <style>
+    @-webkit-keyframes circle {
+        from { transform:rotate(0deg); }
+        to { transform:rotate(360deg); }
+    }
+    
     @keyframes circle {
         from { transform:rotate(0deg); }
         to { transform:rotate(360deg); }
+    }
+    
+    @-webkit-keyframes inner-circle {
+        from { transform:rotate(0deg); }
+        to { transform:rotate(-360deg); }
     }
     
     @keyframes inner-circle {
@@ -26,6 +36,7 @@
         font-size:10px;
         line-height:1;
         animation: circle 25s linear infinite;
+        -webkit-animation: circle 25s linear infinite;
         transform-origin: 50% 50%;
         position: relative;
     }
@@ -42,6 +53,7 @@
     
     #rotator > div {
         animation: inner-circle 25s linear infinite;
+        -webkit-animation: inner-circle 25s linear infinite;
         background-color:#e1e1e1;
      width:120px;
      height:120px;
