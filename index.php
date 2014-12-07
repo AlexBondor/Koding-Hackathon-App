@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>We hack EULA!</title>
-		<?php include 'assets.html'; ?>
+		<?php include 'assets.php'; ?>
 	</head>
 	<body>
 		<div id="page">
@@ -15,7 +15,7 @@
 						<div class="row">
 							<div class="navbar-header pull-right">
 								<h1 class="navbar-brand">
-									<a href="menu.php">
+									<a href="menuAlt.php">
 									    <i class="fa fa-power-off"></i> 
 									</a>
 								</h1>
@@ -48,13 +48,13 @@
 			<main id="main" class="site-main">
 				<section id="carousel-1" class="carousel slide section-slide" data-ride="carousel">
 					<div class="carousel-inner">
-						<div class="item active" style="background: url(images/wi-error.jpg) no-repeat center;">
+						<div class="item active" style="background: url(images/broken/wi-error.jpg) no-repeat center;">
 							<div class="container"><img src="images/typo-none.png" alt="First slide"></div>
 						</div>
-						<div class="item" style="background: url(images/go-error.jpg) no-repeat center;">
+						<div class="item" style="background: url(images/broken/go-error.jpg) no-repeat center;">
 							<div class="container"><img src="images/typo-none.png" alt="First slide"></div>
 						</div>
-						<div class="item" style="background: url(images/fb-error.jpg) no-repeat center;">
+						<div class="item" style="background: url(images/broken/fb-error.jpg) no-repeat center;">
 							<div class="container"><img src="images/typo-none.png" alt="First slide"></div>
 						</div>
 					</div>
@@ -99,9 +99,9 @@
 								</div>
 							</div>
 							<ol class="carousel-indicators">
-								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"><img src="images/avatar-1.png" width="64" height="64" alt="" class="img-circle"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="1"><img src="images/avatar-2.png" width="64" height="64" alt="" class="img-circle"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="2"><img src="images/avatar-3.png" width="64" height="64" alt="" class="img-circle"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"><img src="images/broken/avatar-1.png" width="64" height="64" alt="" class="img-circle"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="1"><img src="images/broken/avatar-2.png" width="64" height="64" alt="" class="img-circle"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="2"><img src="images/broken/avatar-3.png" width="64" height="64" alt="" class="img-circle"></li>
 							</ol>
 						</div>
 					</div>
@@ -111,7 +111,7 @@
 						<h2 class="section-title"><span>Our Team</span></h2>
 						<div class="row">
 							<div class="col-md-4 col-sm-4 col-xs-12">
-								<img src="images/mihai.jpg">
+								<img src="images/broken/mihai.jpg">
 								<h5>Mihai Hanga</h5>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-12">
@@ -119,7 +119,7 @@
 								<h5>Alexandru Bondor</h5>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-12">
-								<img src="images/adi.jpg">
+								<img src="images/broken/adi.jpg">
 								<h5>Adrian Rus</h5>
 							</div>
 						</div>

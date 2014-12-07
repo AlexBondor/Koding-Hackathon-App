@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>We hack EULA!</title>
     
-    <?php include 'assets.html'; ?>
+    <?php include 'assets.php'; ?>
     
     <style>
     @-webkit-keyframes circle {

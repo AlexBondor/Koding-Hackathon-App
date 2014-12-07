@@ -8,7 +8,7 @@
 		<link href="bootstrap/css/style.css" rel="stylesheet">
         <script src="https://maps.googleapis.com/maps/api/js"></script>
         <script src = "bootstrap/js/map.js"> </script>
-		<?php include 'assets.html'; ?>
+		<?php include 'assets.php'; ?>
 	</head>
 	<body>
 		<div id="page">
