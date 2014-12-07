@@ -181,11 +181,5 @@
 			</footer>
 		</div>
 		</div>
-	<script>
-    	document.getElementById("stop").onclick = function(){
-         this.disabled = true
-    	}
-  </script>
 	</body>
-
 </html>

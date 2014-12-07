@@ -20,4 +20,35 @@ function displayDifficulty ($i) {
     }
     return $result;
 }
+
+function setGame($i) {
+    switch ($i) {
+    case 1:
+        $title = "EULA meets Reader!";
+        $link = "story";
+        break;
+    case 2:
+        $title = "Breaking News";
+        $link = "news";
+        break;
+    case 3:
+        $title = "Spoderman: Hacking episode";
+        $link = "comics";
+        break;
+    case 4:
+        $title = "EULA Revenge: Sponsors";
+        $link = "game";
+        break;
+    case 5:
+        $title = "Back to basics!";
+        $link = "classic";
+        break;
+    case 6:
+        $title = "Silence, listen carefully!";
+        $link = "song";
+        break;
+    }
+    $array = array($title, $link);
+    return $array;
+}
 ?>
