@@ -465,123 +465,145 @@ input[type="search"]::-webkit-search-cancel-button
 	webkit-appearance: none;
 }
 button::-moz-focus-inner,
-input::-moz-focus-inner
-{
-	border: 0;
-	padding: 0;
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
 }
-textarea
-{
-	overflow: auto;
-	vertical-align: top;
+
+/*
+ * 1. Removes default vertical scrollbar in IE6/7/8/9
+ * 2. Improves readability and alignment in all browsers
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
 }
-table
-{
-	border-collapse: collapse;
-	border-spacing: 0;
+
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-*
-{
-	box-sizing: border-box;
-	moz-box-sizing: border-box;
-	webkit-box-sizing: border-box;
+/* Addition */
+/* Apply a natural box layout model to all elements */
+/* Read this post by Paul Irish: http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+ * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+ 
+ 
+#map-canvas-index {
+    width: 100%;
+    height: 300px;
+    margin-left:auto;
+    margin-right:auto;
 }
-#map-canvas-index
-{
-	height: 300px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
+.cursorrr{
+    cursor:none;
 }
-.cursorrr
-{
-	cursor: none;
+
+@-webkit-keyframes circle {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(360deg); }
 }
-@-webkit-keyframes circle
-{
-	from
-	{
-		transform: rotate(0deg);
-	}
-	to
-	{
-		transform: rotate(360deg);
-	}
+
+@keyframes circle {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(360deg); }
 }
-@keyframes circle
-{
-	from
-	{
-		transform: rotate(0deg);
-	}
-	to
-	{
-		transform: rotate(360deg);
-	}
+
+@-webkit-keyframes inner-circle {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(-360deg); }
 }
-@-webkit-keyframes inner-circle
-{
-	from
-	{
-		transform: rotate(0deg);
-	}
-	to
-	{
-		transform: rotate(-360deg);
-	}
+
+@keyframes inner-circle {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(-360deg); }
 }
-@keyframes inner-circle
-{
-	from
-	{
-		transform: rotate(0deg);
-	}
-	to
-	{
-		transform: rotate(-360deg);
-	}
+
+#rotator {
+   width:380px;
+    height:380px;
+    margin:100px auto;
+    font-size:10px;
+    line-height:1;
+    animation: circle 25s linear infinite;
+    -webkit-animation: circle 25s linear infinite;
+    transform-origin: 50% 50%;
+    position: relative;
 }
-#rotator
-{
-	animation: circle 25s linear infinite;
-	font-size: 10px;
-	height: 380px;
-	line-height: 1;
-	margin: 100px auto;
-	position: relative;
-	transform-origin: 50% 50%;
-	webkit-animation: circle 25s linear infinite;
-	width: 380px;
+
+.rotators, .rotators > div {
+    -webkit-animation-play-state: paused !important; /* Chrome, Safari, Opera */
+    animation-play-state: paused !important;
 }
-.rotators, .rotators > div
-{
-	animation-play-state: paused !important;
-	webkit-animation-play-state: paused !important;
+
+.rotatora, .rotatora > div {
+    -webkit-animation-play-state: running !important; /* Chrome, Safari, Opera */
+    animation-play-state: running !important;
 }
-.rotatora, .rotatora > div
-{
-	animation-play-state: running !important;
-	webkit-animation-play-state: running !important;
+
+#rotator > div {
+    animation: inner-circle 25s linear infinite;
+    -webkit-animation: inner-circle 25s linear infinite;
+    background-color:#e1e1e1;
+ width:120px;
+ height:120px;
+ border-radius: 50%;
 }
-#rotator > div
-{
-	animation: inner-circle 25s linear infinite;
-	background-color: #e1e1e1;
-	border-radius: 50%;
-	height: 120px;
-	webkit-animation: inner-circle 25s linear infinite;
-	width: 120px;
+
+#middleBubble {
+  text-align: center;
+  vertical-align: top;
+  background-color: #24b463;
+  padding: 40px 60px;
+  border-radius: 50%;
+  color: #252525;
+  margin: auto;
+  position: absolute;
+  text-align:center;
+  top: 33%;
+  left: 45%;
 }
-#middleBubble
-{
-	background-color: #24b463;
-	border-radius: 50%;
-	color: #252525;
-	left: 45%;
-	margin: auto;
-	padding: 40px 60px;
-	position: absolute;
-	text-align: center;
-	top: 33%;
-	vertical-align: top;
+
+.circle {
+    background-color: #24b463;
+    width:100px;
+    height:100px;
+    color: #fff;
+    position: relative;
+}
+
+.circle i {
+    left: 24%;
+    position: absolute;
+    top: 20%;
+}
+
+.circle:hover {
+    background-color: #126034;
+}
+
+.frame {
+    border: 10px solid #131313;
+    border-radius: 0 50px 0 50px;
+    height: 600px;
+}
+
+.oversf {
+    padding: 0 !important;
+    border-radius: 0 0 50px 50px;
+}
+
+.topart {
+    border-radius:50px 50px 0 0;
+    padding: 15px 0 5px 0;
 }
