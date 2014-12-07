@@ -15,8 +15,9 @@
 						<div class="row">
 							<div class="navbar-header pull-right">
 								<h1 class="navbar-brand">
-									<i class="fa fa-power-off"></i> 
-									<a href="index.php">Team 3</a>
+									<a href="menu.php">
+									    <i class="fa fa-power-off"></i> 
+									</a>
 								</h1>
 							</div>
 							<div class = "pull-left">
@@ -27,33 +28,34 @@
 							</div>
 							<div class = "large-menu">
 								<ul id="navigation-large" class="nav navbar-nav navbar-left">
-									<li class="active"><a href="#header" class="current">Home</a></li>
-									<li><a href="#about">About</a></li>
-									<li><a href="#footer">Contact</a></li>
+									<li class="disabled"><a href="#">Home</a></li>
+									<li class="disabled"><a href="#">About</a></li>
+									<li class="disabled"><a href="#">Contact</a></li>
 								</ul>
 							</div>
 						</div>
 						<div id="navbar-collapse-1" class="collapse navbar-collapse small-menu">
 							<ul id="navigation-small" class="nav navbar-nav navbar-left">
-								<li class="active"><a href="#header" class="current">Home</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#footer">Contact</a></li>
+								<li class="disabled"><a href="#">Home</a></li>
+								<li class="disabled"><a href="#">About</a></li>
+								<li class="disabled"><a href="#">Contact</a></li>
 							</ul>
 						</div>
 					</div>
 				</nav>
 			</header>
+	<div class="blocking-div">
 			<main id="main" class="site-main">
 				<section id="carousel-1" class="carousel slide section-slide" data-ride="carousel">
 					<div class="carousel-inner">
-						<div class="item active" style="background: url(images/bg-1.jpg) no-repeat center;">
-							<div class="container"><img src="images/typo-1.png" alt="First slide"></div>
+						<div class="item active" style="background: url(images/wi-error.jpg) no-repeat center;">
+							<div class="container"><img src="images/typo-none.png" alt="First slide"></div>
 						</div>
-						<div class="item" style="background: url(images/bg-2.jpg) no-repeat center;">
-							<div class="container"><img src="images/typo-2.png" alt="First slide"></div>
+						<div class="item" style="background: url(images/go-error.jpg) no-repeat center;">
+							<div class="container"><img src="images/typo-none.png" alt="First slide"></div>
 						</div>
-						<div class="item" style="background: url(images/bg-3.jpg) no-repeat center;">
-							<div class="container"><img src="images/typo-3.png" alt="First slide"></div>
+						<div class="item" style="background: url(images/fb-error.jpg) no-repeat center;">
+							<div class="container"><img src="images/typo-none.png" alt="First slide"></div>
 						</div>
 					</div>
 					<a class="left carousel-control" href="#carousel-1" data-slide="prev"><span class="fa fa-chevron-left"></span></a>
@@ -172,6 +174,7 @@
 					</div>
 				</div>
 			</footer>
+		</div>
 		</div>
 	</body>
 </html>
