@@ -5,7 +5,12 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>We hack EULA!</title>
+		<link href="bootstrap/css/style.css" rel="stylesheet">
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script src = "bootstrap/js/map-index.js"> </script>
+        
 		<?php include 'assets.php'; ?>
+		
 	</head>
 	<body>
 		<div id="page">
@@ -28,17 +33,17 @@
 							</div>
 							<div class = "large-menu">
 								<ul id="navigation-large" class="nav navbar-nav navbar-left">
-									<li class="disabled"><a href="#">Home</a></li>
-									<li class="disabled"><a href="#">About</a></li>
-									<li class="disabled"><a href="#">Contact</a></li>
+									<li class="disabled"><a href="#">Ubzr</a></li>
+									<li class="disabled"><a href="#">Nobhg</a></li>
+									<li class="disabled"><a href="#">Pbagnpg</a></li>
 								</ul>
 							</div>
 						</div>
 						<div id="navbar-collapse-1" class="collapse navbar-collapse small-menu">
 							<ul id="navigation-small" class="nav navbar-nav navbar-left">
-								<li class="disabled"><a href="#">Home</a></li>
-								<li class="disabled"><a href="#">About</a></li>
-								<li class="disabled"><a href="#">Contact</a></li>
+								<li class="disabled"><a href="#">Ubzr</a></li>
+								<li class="disabled"><a href="#">Nobhg</a></li>
+								<li class="disabled"><a href="#">Pbagnpg</a></li>
 							</ul>
 						</div>
 					</div>
@@ -63,64 +68,68 @@
 				</section>
 				<section class="section section-center section-cta">
 					<div class="container">
-						<h2 class="section-title"><span>We present to you the amazing city of Cluj - Napoca !</span></h2>
-						<p>Cluj-Napoca, commonly known as Cluj, is the second most populous city in Romania, after the national capital Bucharest, and the seat of Cluj County in the northwestern part of the country.
-							Located in the Someșul Mic River valley, the city is considered the unofficial capital to the historical province of Transylvania.
+						<h2 class="section-title"><span>Jr cerfrag gb lbh gur nznmvat pvgl bs Pyhw - Ancbpn !</span></h2>
+						<p>Pyhw-Ancbpn, pbzzbayl xabja nf Pyhw, vf gur frpbaq zbfg cbchybhf pvgl va Ebznavn, nsgre gur angvbany pncvgny Ohpunerfg, 
+						    naq gur frng bs Pyhw Pbhagl va gur abegujrfgrea cneg bs gur pbhagel. Ybpngrq va gur Fbzrșhy Zvp Evire inyyrl, gur pvgl vf pbafvqrerq gur habssvpvny pncvgny gb gur uvfgbevpny cebivapr bs Genaflyinavn.
 						</p>
 						<div class="main-action row">
-							<div class="col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-2"><a href="#" class="smooth-scroll btn btn-lg btn-block btn-danger">View Map</a></div>
-							<div class="col-md-3 col-sm-4"><a href="#" class="smooth-scroll btn btn-lg btn-block btn-default">Youth @ Cluj - Napoca</a></div>
+							<div class="col-md-3 col-md-offset-3 col-sm-4 col-sm-offset-2"><a href="#" class="smooth-scroll btn btn-lg btn-block btn-danger" disabled>Ivrj Znc</a></div>
+							<div class="col-md-3 col-sm-4"><a href="#" class="smooth-scroll btn btn-lg btn-block btn-default" disabled>Lbhgu @ Pyhw - Ancbpn</a></div>
 						</div>
+					</div>
+				</section>
+					<section class="map-canvas-section">
+					<div class = "disabled" id="map-canvas-index">
 					</div>
 				</section>
 				<section id="about" class="section section-center section-hilite section-testimonial">
 					<div class="container">
-						<h2 class="section-title"><span>What tourists think?</span></h2>
+						<h2 class="section-title"><span>Jung gbhevfgf guvax?</span></h2>
 						<i class="fa fa-quote-left fa-3x"></i>
 						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="item active">
 									<blockquote>
-										<p>It's the place where magic happens... It's the next huge thing. If you haven't visited Cluj-Napoca yet, you should definately do so. Otherwise 'Dracula' will hunt you down and nobody escaped 'Dracula' as far as I know!</p>
-										<small>Alexandru Bondor<cite title="Source Title"> A Do-It-Yourselfer</cite></small>
+										<p>Vg\’f gur cynpr jurer zntvp unccraf… Vg\’f gur arkg uhtr guvat. Vs lbh unira\’g ivfvgrq Pyhw-Ancbpn lrg, lbh fubhyq qrsvangryl qb fb. Bgurejvfr \’Qenphyn\’ jvyy uhag lbh qbja naq abobql rfpncrq \’Qenphyn\’ nf sne nf V xabj!</p>
+										<small>Nyrk Obaqbe<cite title="Source Title">N Qb-Vg-Lbhefrysre</cite></small>
 									</blockquote>
 								</div>
 								<div class="item">
 									<blockquote>
-										<p>Due to its location on important trade routes, Cluj-Napoca nowadays attracts again businesses from all over Europe. Not only the largest university of Romania can be found here, but also quite a few other state and private educational institutions.</p>
-										<small>Adrian Rus<cite title="Source Title"> Folk Dancer at "Traditii"</cite></small>
+										<p>Qhr gb vgf ybpngvba ba vzcbegnag genqr ebhgrf, Pyhw-Ancbpn abjnqnlf nggenpgf ntnva ohfvarffrf sebz nyy bire Rhebcr. Abg bayl gur ynetrfg havirefvgl bs Ebznavn pna or sbhaq urer, ohg nyfb dhvgr n srj bgure fgngr naq cevingr rqhpngvbany vafgvghgvbaf.</p>
+										<small>Nqevna Ehf<cite title="Source Title">  Sbyx Qnapre ng \”Genqvgvv\”</cite></small>
 									</blockquote>
 								</div>
 								<div class="item">
 									<blockquote>
-										<p>This beautiful fascinating city is a most beautiful town of Romania, and a typical part of Transylvania. Cluj-Napoca is the economic centre of the region, and a very old city.</p>
-										<small>Mihai Hanga<cite title="Source Title"> Fishing Enthuziast</cite></small>
+										<p>Guvf ornhgvshy snfpvangvat pvgl vf n zbfg ornhgvshy gbja bs Ebznavn, naq n glcvpny cneg bs Genaflyinavn. Pyhw-Ancbpn vf gur rpbabzvp prager bs gur ertvba, naq n irel byq pvgl.</p>
+										<small>Zvunv Unatn<cite title="Source Title"> Svfuvat Raguhmvnfg</cite></small>
 									</blockquote>
 								</div>
 							</div>
 							<ol class="carousel-indicators">
-								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"><img src="images/broken/avatar-1.png" width="64" height="64" alt="" class="img-circle"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="1"><img src="images/broken/avatar-2.png" width="64" height="64" alt="" class="img-circle"></li>
-								<li data-target="#carousel-example-generic" data-slide-to="2"><img src="images/broken/avatar-3.png" width="64" height="64" alt="" class="img-circle"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="0" class="active"><img src="images/final/avatar-1.png" width="64" height="64" alt="" class="img-circle"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="1"><img src="images/final/avatar-2.png" width="64" height="64" alt="" class="img-circle"></li>
+								<li data-target="#carousel-example-generic" data-slide-to="2"><img src="images/final/avatar-3.png" width="64" height="64" alt="" class="img-circle"></li>
 							</ol>
 						</div>
 					</div>
 				</section>
 				<section id="team" class="section section-center section-hilite section-team">
 					<div class="container">
-						<h2 class="section-title"><span>Our Team</span></h2>
+						<h2 class="section-title"><span>Bhe Grnz</span></h2>
 						<div class="row">
 							<div class="col-md-4 col-sm-4 col-xs-12">
-								<img src="images/broken/mihai.jpg">
-								<h5>Mihai Hanga</h5>
+								<img src="images/broken/imageNotFound.jpg">
+								<h5>Zvunv Unatn</h5>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-12">
-								<img src="https://camo.githubusercontent.com/17a8aa65e19d57a8fe22bba37439d9f33d8ec2ca/687474703a2f2f676f6f2e676c2f374b446d5237">
-								<h5>Alexandru Bondor</h5>
+								<img src="images/broken/imageNotFound.jpg">
+								<h5>Ayrknaqeh Obaqbe</h5>
 							</div>
 							<div class="col-md-4 col-sm-4 col-xs-12">
-								<img src="images/broken/adi.jpg">
-								<h5>Adrian Rus</h5>
+								<img src="images/broken/imageNotFound.jpg">
+								<h5>Nqevna Ehf</h5>
 							</div>
 						</div>
 					</div>
@@ -131,36 +140,35 @@
 					<div id="sidebar-footer-1">
 						<div class="row">
 							<aside class="widget col-md-3 col-sm-6">
-								<h5 class="widget-title">About Us</h5>
-								<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptate rerum voluptates. <a href="#">Read more</a></p>
+								<h5 class="widget-title">Nobhg Hf</h5>
+								<p>Jr ner 3 fghqragf grnz gung vf thvqrq ol zbggb:‘Jr ner n grnz, jr jva nf n grnz, jr ybfr nf n grnz\” (Zbhevaub)</p>
 							</aside>
 							<aside class="widget col-md-3 col-sm-6">
-								<h5 class="widget-title">Contact</h5>
+								<h5 class="widget-title">Pbagnpg</h5>
 								<div class="textwidget">
-									<div class="adr">
-										<div class="street-address">416 Water St.</div>
-										<span class="locality">New York</span>,
-										<abbr class="region" title="New York">NY</abbr>,
-										<span class="postal-code">10002</span>,
-										<span class="country-name">U.S.A</span>
+										<div class="adr">
+										<div class="street-address">26 Oernmn Fg</div>
+										<span class="locality">Pyhw-Ancbpn</span>,
+										<abbr class="region" title="Cluj-Napoca">CJ</abbr>,
+										<span class="postal-code">400263</span>,
+										<span class="country-name">EBZNAVN</span>
 									</div>
 									<div>Phone: <span class="tel">+1.123.456.7890</span></div>
-									<div>Website: <a class="url" href="http://wrapbootstrap.com">http://wrapbootstrap.com</a></div>
 								</div>
 							</aside>
 							<aside class="widget col-md-3 col-sm-6">
-								<h5 class="widget-title">Need Help?</h5>
-								<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptate rerum voluptates. <a href="#">Read more</a></p>
+								<h5 class="widget-title">Arrq Uryc?</h5>
+								<p> Sbe nal dhrfgvba lbh unir cyrnfr srry serr gb pbagnpg hf!></p>
 							</aside>
 							<aside class="widget col-md-3 col-sm-6">
-								<h5 class="widget-title">Get in touch</h5>
+								<h5 class="widget-title">Trg va gbhpu</h5>
 								<div class="input-group">
-									<input type="text" class="form-control" placeholder="Your Email">
+									<input type="text" class="form-control" placeholder="Lbhe Rznvy" disabled>
 									<span class="input-group-btn">
-									<button class="btn btn-danger" type="button"><i class="fa fa-arrow-right"></i></button>
+									<button class="btn btn-danger" type="button" disabled><i class="fa fa-arrow-right" ></i></button>
 									</span>
 								</div>
-								<ul class="social-links">
+								<ul class="social-links" disabled>
 									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
@@ -170,11 +178,17 @@
 						</div>
 					</div>
 					<div class="copyright">
-						<p>© 2014 Team 3 Corporation</p>
+						<p>© 2014 Grnz 3 Pbecbengvba</p>
 					</div>
 				</div>
 			</footer>
 		</div>
 		</div>
+	<script>
+    	document.getElementById("stop").onclick = function(){
+         this.disabled = true
+    	}
+  </script>
 	</body>
+
 </html>

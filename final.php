@@ -141,25 +141,25 @@
 						<div class="row">
 							<aside class="widget col-md-3 col-sm-6">
 								<h5 class="widget-title">About Us</h5>
-								<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptate rerum voluptates. <a href="#">Read more</a></p>
+								    <p>We are a 3 students team that is guided by motto:‘We are a team, we win as a team, we lose as a team" (Mourinho)</p>
 							</aside>
 							<aside class="widget col-md-3 col-sm-6">
 								<h5 class="widget-title">Contact</h5>
 								<div class="textwidget">
 									<div class="adr">
-										<div class="street-address">416 Water St.</div>
-										<span class="locality">New York</span>,
-										<abbr class="region" title="New York">NY</abbr>,
-										<span class="postal-code">10002</span>,
-										<span class="country-name">U.S.A</span>
+										<div class="street-address">26 Breaza St</div>
+										<span class="locality">Cluj-Napoca</span>,
+										<abbr class="region" title="Cluj-Napoca">CJ</abbr>,
+										<span class="postal-code">400263</span>,
+										<span class="country-name">ROMANIA</span>
 									</div>
-									<div>Phone: <span class="tel">+1.123.456.7890</span></div>
-									<div>Website: <a class="url" href="http://wrapbootstrap.com">http://wrapbootstrap.com</a></div>
+									<div>Phone: <span class="tel"> 0189-432-331. </span></div>
+								
 								</div>
 							</aside>
 							<aside class="widget col-md-3 col-sm-6">
 								<h5 class="widget-title">Need Help?</h5>
-								<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptate rerum voluptates. <a href="#">Read more</a></p>
+								<p>For any question you have please feel free to contact us!</p>
 							</aside>
 							<aside class="widget col-md-3 col-sm-6">
 								<h5 class="widget-title">Get in touch</h5>
