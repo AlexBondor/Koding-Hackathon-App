@@ -2,6 +2,7 @@
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet">
     <link href="bootstrap/css/style.css" rel="stylesheet">
+    <link href="bootstrap/css/style2.css" rel="stylesheet">
     <link href="bootstrap/css/font-awesome.css" rel="stylesheet">
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
