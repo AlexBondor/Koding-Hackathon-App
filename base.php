@@ -8,6 +8,7 @@
 		<?php include 'assets.php'; ?>
 	</head>
 	<body>
+	<?php $id = $_GET['id']; ?>
     	<div class="container">
           <div class="row" style="margin-top: 50px;">
           <div  class="col-md-8 topart" style="background-color: #131313;">
@@ -19,13 +20,13 @@
               </a>
             </div>
             <div class="col-md-10">
-                <h1 style="margin-left: 20px; color: #fff;">Aci Titlu Fain Frumos, Shainy</h1>
+                <h1 style="margin-left: 20px; color: #fff;"><?php echo setGame($id)[0]; ?></h1>
             </div>
           </div>
           </div>
           <div class="row">
             <div class="col-md-12 frame">
-                <?php include 'menu/comics.php'; ?>
+                <?php include 'menu/' . setGame($id)[1] . '.php'; ?>
             </div>
           </div>
           <div class="row">
