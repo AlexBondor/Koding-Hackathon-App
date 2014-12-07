@@ -181,24 +181,5 @@
 			</footer>
 		</div>
 		</div>
-
-<div id="mashape-docs-container-23217067"></div>
-<script type="text/javascript">
-  (function (window) {
-    if (!window._MashapeConfig) window._MashapeConfig = [];
-    window._MashapeConfig.push({
-      selector: '#mashape-docs-container-23217067',
-      user: 'AdrianOctavian',
-      api: 'Hackathon'
-    });
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = '//mashape.github.io/embed/docs.js';
-    script.async = true;
-    var entry = document.getElementsByTagName('script')[0];
-    entry.parentNode.insertBefore(script, entry);
-  }(window));
-</script>
 	</body>
-
 </html>
