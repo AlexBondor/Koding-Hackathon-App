@@ -17,9 +17,7 @@
 						<div class="row">
 							<div class="navbar-header pull-right">
 								<h1 class="navbar-brand">
-									<a href="menuAlt.php">
-									    <i id = "power-button" class="fa fa-power-off" style = "font-size: 2.5em"></i> 
-									</a>
+									    <i id = "glow" class="power-button" style = "font-size: 2.5em"></i> 
 								</h1>
 							</div>
 							<div class = "pull-left">

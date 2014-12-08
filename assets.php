@@ -1,4 +1,4 @@
-    <!-- Bootstrap -->
+<!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet">
     <link href="bootstrap/css/style.css" rel="stylesheet">
@@ -16,9 +16,18 @@
     <script src="bootstrap/js/pagenav.js"></script>
     <script src="bootstrap/js/codrops-min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src = "bootstrap/js/map-index.js"> </script>
+    <script src = "bootstrap/js/map.js"> </script>
     
-    <script src="bootstrap/js/map-index.js"> </script>
-    <script src="bootstrap/js/map.js"> </script>
+    <!-- jQuery UI (optional) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    
+    <!-- Booklet -->
+    <script src="booklet/jquery.easing.1.3.js"></script>
+    <script src="booklet/jquery.booklet.latest.min.js"></script>
+    
+    <script src="elevatezoom/jquery.elevatezoom.js" type="text/javascript"></script>
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

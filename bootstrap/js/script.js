@@ -4,6 +4,11 @@ $(document).ready(function() {
     setInterval(function() {
         glow.hasClass('glow') ? glow.removeClass('glow') : glow.addClass('glow');
     }, 1000);
+    
+    var eula = $('#eula-glow');
+    setInterval(function() {
+        eula.hasClass('glow') ? eula.removeClass('glow') : eula.addClass('glow');
+    }, 1000);
 
     //arrange blocks in a circle
     var block = $("#rotator div").get(),
