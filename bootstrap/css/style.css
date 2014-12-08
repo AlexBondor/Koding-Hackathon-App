@@ -643,6 +643,17 @@ table {
     color: #fff;
 }
 
+#eula-glow{
+    -webkit-transition: color 1s linear;
+    -moz-transition: color 1s linear;
+    -ms-transition: color 1s linear;
+    -o-transition: color 1s linear;
+    transition: color 1s linear;
+}
+#eula-glow.glow {
+    color: #fff !important;
+}
+
 
 
 /*
