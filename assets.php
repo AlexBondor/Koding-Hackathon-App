@@ -4,8 +4,9 @@
     <link href="bootstrap/css/style.css" rel="stylesheet">
     <link href="bootstrap/css/style2.css" rel="stylesheet">
     <link href="bootstrap/css/font-awesome.css" rel="stylesheet">
+    <link href="booklet/jquery.booklet.latest.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
     
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -18,16 +19,9 @@
     <script src = "bootstrap/js/map-index.js"> </script>
     <script src = "bootstrap/js/map.js"> </script>
     
-    <link href="booklet/jquery.booklet.latest.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
-
-    <!-- jQuery -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-    <script> window.jQuery || document.write('<script src="booklet/jquery-2.1.0.min.js"><\/script>') </script>
-    
     <!-- jQuery UI (optional) -->
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-    <script> window.jQuery.ui || document.write('<script src="booklet/jquery-ui-1.10.4.custom.min.js"><\/script>') </script>
-    `
+    
     <!-- Booklet -->
     <script src="booklet/jquery.easing.1.3.js"></script>
     <script src="booklet/jquery.booklet.latest.min.js"></script>

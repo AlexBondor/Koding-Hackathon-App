@@ -10,7 +10,7 @@
 	<body>
 	<?php $id = $_GET['id']; ?>
     	<div class="container">
-          <div class="row" style="margin-top: 50px;">
+          <div class="row" style="margin-top: 20px;">
           <div  class="col-md-8 topart" style="background-color: #131313;">
             <div class="col-md-2">
               <a href="menuAlt.php">
