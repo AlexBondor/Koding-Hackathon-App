@@ -123,8 +123,6 @@ $(document).ready(function() {
     
 });
 
-$(window).load(hideBar);
-
 //activate
 function hovera() {
     //alert("in");
@@ -135,7 +133,4 @@ function hovera() {
 function hovers() {
     //alert("out");
     $("#rotator").removeClass('rotators').addClass('rotatora');
-}
-
-function hideBar() {
 }
