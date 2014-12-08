@@ -18,6 +18,7 @@
         </style>
     </head>
     <body class = "body-middle">
+    <div class="container">
         <h1 class = "title-middle">
             Let's face EULA together! Choose your weapon wisely:
         </h1>
@@ -84,5 +85,6 @@
         <h3 class = "subtitle-middle">
             Cannot take a decision? See others' choice!
         </h3>
+        </div>
     </body>
 </html>
