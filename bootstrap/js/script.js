@@ -120,7 +120,10 @@ $(document).ready(function() {
         });
         return false;
     });
+    
 });
+
+$(window).load(hideBar);
 
 //activate
 function hovera() {
@@ -132,4 +135,7 @@ function hovera() {
 function hovers() {
     //alert("out");
     $("#rotator").removeClass('rotators').addClass('rotatora');
+}
+
+function hideBar() {
 }

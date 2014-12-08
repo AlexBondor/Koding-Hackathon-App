@@ -711,3 +711,33 @@ table {
     border-radius: none;
 }
 
+.final-message {
+    position: absolute;
+    top: 530px;
+    left: 40px;
+    color: black;
+}
+
+.final-message > a {
+    color: red;
+}
+
+@media (max-width: 991px) {
+    #mybook {
+        visibility: hidden;
+        display: block;
+        line-height:0;
+        height: 0 !important;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 992px) {
+    #mystory {
+        visibility: hidden;
+        display: block;
+        line-height:0;
+        height: 0;
+        overflow: hidden;
+    }
+}
