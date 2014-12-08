@@ -10,7 +10,7 @@
 	<body>
 	<?php $id = $_GET['id']; ?>
     	<div class="container">
-          <div class="row" style="margin-top: 50px;">
+          <div class="row" style="margin-top: 20px;">
           <div  class="col-md-8 topart" style="background-color: #131313;">
             <div class="col-md-2">
               <a href="menuAlt.php">
@@ -32,10 +32,10 @@
           <div class="row">
             <div class="col-md-3 col-md-push-9 site-footer oversf">
               <ul class="social-links" style="margin: 5px 0 15px 0;">
-				<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-				<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+				<li><a target="_blank" href="http://www.facebook.com/sharer.php?u=http://terente.koding.io/Koding-Hackathon-App/base.php?id=<?php echo $id ?>"><i class="fa fa-facebook"></i></a></li>
+				<li><a target="_blank" href="https://twitter.com/share?url=http://terente.koding.io/Koding-Hackathon-App/base.php?id=<?php echo $id ?>&hashtags=fairtoshare"><i class="fa fa-twitter"></i></a></li>
+				<li><a target="_blank" href="https://plus.google.com/share?url=http://terente.koding.io/Koding-Hackathon-App/base.php?id=<?php echo $id ?>"><i class="fa fa-google-plus"></i></a></li>
+				<li><a target="_blank" href="http://www.linkedin.com/shareArticle?mini=true&url=http://terente.koding.io/Koding-Hackathon-App/base.php?id=<?php echo $id ?>"><i class="fa fa-linkedin"></i></a></li>
 			  </ul>
     		</div>
         </div>

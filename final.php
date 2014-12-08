@@ -32,6 +32,8 @@
 								<ul id="navigation-large" class="nav navbar-nav navbar-left">
 									<li class="active"><a href="#header" class="current">Home</a></li>
 									<li><a href="#about">About</a></li>
+									<li><a href="#idea">Idea</a></li>
+									<li><a href="#" onClick="window.location.href = 'menuAlt.php';">More Fun</a></li>
 									<li><a href="#footer">Contact</a></li>
 								</ul>
 							</div>
@@ -40,6 +42,8 @@
 							<ul id="navigation-small" class="nav navbar-nav navbar-left">
 								<li class="active"><a href="#header" class="current">Home</a></li>
 								<li><a href="#about">About</a></li>
+								<li><a href="#idea">Idea</a></li>
+								<li><a href="#" onClick="window.location.href = 'menuAlt.php';">More Fun</a></li>
 								<li><a href="#footer">Contact</a></li>
 							</ul>
 						</div>
@@ -49,16 +53,16 @@
 			<main id="main" class="site-main">
 				<section id="carousel-1" class="carousel slide section-slide" data-ride="carousel">
 					<div class="carousel-inner">
-						<div class="item active" style="background: url(images/cluj/poza1.png) no-repeat center;">
+						<div class="item active" style="background: url(images/cluj/poza1.png) no-repeat center; background-size: cover;">
                           <div class="container"><img src="images/typo-none.png" alt="First slide"></div>
                         </div>
-                        <div class="item" style="background: url(images/cluj/poza2.png) no-repeat center;">
+                        <div class="item" style="background: url(images/cluj/poza2.png) no-repeat center; background-size: cover;">
                           <div class="container"><img src="images/typo-none.png" alt="First slide"></div>
                         </div>
-                        <div class="item" style="background: url(images/cluj/poza3.png) no-repeat center;">
+                        <div class="item" style="background: url(images/cluj/poza3.png) no-repeat center; background-size: cover;">
                          <div class="container"><img src="images/typo-none.png" alt="First slide"></div> 
                         </div>
-                         <div class="item" style="background: url(images/cluj/poza.png) no-repeat center;">
+                         <div class="item" style="background: url(images/cluj/poza.png) no-repeat center; background-size: cover;">
                          <div class="container"><img src="images/typo-none.png" alt="First slide"></div> 
                         </div>
 					</div>
@@ -173,7 +177,7 @@
 									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-									<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 								</ul>
 							</aside>
 						</div>

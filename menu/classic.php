@@ -4,7 +4,7 @@
     </div>
     <div class = "window-repeat">
         <div class = "eula-text">
-            <?php include 'eula-text.php'; ?>
+            <?php include 'menu/eula-text.php'; ?>
         </div>
     </div>
     <div class = "window-bottom">

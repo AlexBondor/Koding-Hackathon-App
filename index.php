@@ -50,13 +50,13 @@
 			<main id="main" class="site-main">
 				<section id="carousel-1" class="carousel slide section-slide" data-ride="carousel">
 					<div class="carousel-inner">
-						<div class="item active" style="background: url(images/broken/wi-error.jpg) no-repeat center;">
+						<div class="item active" style="background: url(images/broken/wi-error.jpg) no-repeat center; background-size: cover;">
 							<div class="container"><img src="images/typo-none.png" alt="First slide"></div>
 						</div>
-						<div class="item" style="background: url(images/broken/go-error.jpg) no-repeat center;">
+						<div class="item" style="background: url(images/broken/go-error.jpg) no-repeat center; background-size: cover;">
 							<div class="container"><img src="images/typo-none.png" alt="First slide"></div>
 						</div>
-						<div class="item" style="background: url(images/broken/fb-error.jpg) no-repeat center;">
+						<div class="item" style="background: url(images/broken/fb-error.jpg) no-repeat center; background-size: cover;">
 							<div class="container"><img src="images/typo-none.png" alt="First slide"></div>
 						</div>
 					</div>
@@ -169,7 +169,7 @@
 									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-									<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 								</ul>
 							</aside>
 						</div>

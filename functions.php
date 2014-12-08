@@ -44,7 +44,7 @@ function setGame($i) {
         $link = "classic";
         break;
     case 6:
-        $title = "Silence, listen carefully!";
+        $title = "Sil<a style=\"color: #fff; text-decoration: underline;\"  href=\"final.php\">e</a>nce, listen carefully!";
         $link = "song";
         break;
     }

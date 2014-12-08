@@ -4,8 +4,9 @@
     <link href="bootstrap/css/style.css" rel="stylesheet">
     <link href="bootstrap/css/style2.css" rel="stylesheet">
     <link href="bootstrap/css/font-awesome.css" rel="stylesheet">
-
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <link href="booklet/jquery.booklet.latest.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
@@ -15,6 +16,7 @@
     <script src="bootstrap/js/pagenav.js"></script>
     <script src="bootstrap/js/codrops-min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
+    
     <script src="bootstrap/js/map-index.js"> </script>
     <script src="bootstrap/js/map.js"> </script>
 
