@@ -3,8 +3,8 @@
 <img src="images/botwave.png" class="col-md-offset-4 img-responsive" style="height: 210px;">
 
 <script type="text/javascript">
-  function loadFunc(){
-  setTimeout(function(){alert('Push "e" from the title if you accept our terms!')}, 100000)
+  function loadFunc() {
+    setTimeout(function(){alert('Push "e" from the title if you accept our terms!')}, 60000)
   }
 </script>
 
