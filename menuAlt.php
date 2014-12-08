@@ -83,7 +83,7 @@
             </ul>
         </div>
         <h3 class = "subtitle-middle">
-            Cannot take a decision? See others' choice!
+            Cannot take a decision? See <a href = "#">others'</a> choice!
         </h3>
         </div>
     </body>
