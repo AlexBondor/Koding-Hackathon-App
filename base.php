@@ -7,7 +7,7 @@
 		<title>We hack EULA!</title>
 		<?php include 'assets.php'; ?>
 	</head>
-	<body>
+	<body onload="loadFunc()">
 	<?php $id = $_GET['id']; ?>
     	<div class="container">
           <div class="row" style="margin-top: 20px;">

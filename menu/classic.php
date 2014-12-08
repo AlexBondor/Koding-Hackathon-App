@@ -1,4 +1,4 @@
-<div class= "win95">
+<div class = "win95">
     <div class = "window-top">
         <img src="images/classic/window-top.png" style = "visibility:hidden"/>
     </div>
@@ -13,3 +13,4 @@
         <img src="images/classic/window-bottom.png" style = "visibility:hidden"/>
     </div>
 </div>
+

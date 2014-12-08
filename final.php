@@ -72,7 +72,7 @@
 				</section>
 				<section class="section section-center section-cta">
 					<div class="container">
-						<h2 class="section-title"><span>We present to you the amazing city of Cluj - Napoca !</span></h2>
+						<h2 class="section-title"><span>We present to you the amazing city of Cluj-Napoca!</span></h2>
 						<p>Cluj-Napoca, commonly known as Cluj, is the second most populous city in Romania, after the national capital Bucharest, and the seat of Cluj County in the northwestern part of the country.
 							Located in the Someșul Mic River valley, the city is considered the unofficial capital to the historical province of Transylvania.
 						</p>
@@ -88,7 +88,7 @@
 				</section>
 				<section id="about" class="section section-center section-hilite section-testimonial">
 					<div class="container">
-						<h2 class="section-title"><span>What do creators think?</span></h2>
+						<h2 class="section-title"><span>What do the creators think?</span></h2>
 						<i class="fa fa-quote-left fa-3x"></i>
 						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
@@ -117,6 +117,17 @@
 								<li data-target="#carousel-example-generic" data-slide-to="2"><img src="images/final/avatar-3.png" width="64" height="64" alt="" class="img-circle"></li>
 							</ol>
 						</div>
+					</div>
+				</section>
+				<section id = "idea" class="section section-center section-cta">
+					<div class="container">
+						<h2 class="section-title"><span>Our idea</span><i class="fa fa-lightbulb-o"></i></h2>
+						<h4>The idea of creating an interactive way of reading EULA, TOS and so on (cuz nobody reads them) sounded great for us from the very beginning.
+						So, after a hard 'storm of brains' we came up with the idea! <br/><br/> 
+						<i>'What if we won't offer anything for the user, except a 'broken page' until 
+						the user actually reads the TOS.. So we came up with some mini-games in order to satisfy
+						everybodys' taste!', Team 3
+						</h4>
 					</div>
 				</section>
 				<section id="team" class="section section-center section-hilite section-team">
@@ -163,7 +174,7 @@
 							</aside>
 							<aside class="widget col-md-3 col-sm-6">
 								<h5 class="widget-title">Need Help?</h5>
-								<p>For any question you have please feel free to contact us!</p>
+								<p>For any question you have, please feel free to contact us!</p>
 							</aside>
 							<aside class="widget col-md-3 col-sm-6">
 								<h5 class="widget-title">Get in touch</h5>

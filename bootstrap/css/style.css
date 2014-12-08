@@ -775,3 +775,18 @@ table {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.centered-div {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.idea {
+    background-image: url('../../images/idea.jpg');
+    background-repeat: no-repeat;
+    height: 200px;
+    position: absolute;
+    width: auto;
+}
